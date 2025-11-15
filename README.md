@@ -1,4 +1,4 @@
-# 🚗 Spring Boot + Dev 애플리케이션 (Gradle 기반)
+# 🚗 Spring Boot + Thymeleaf 애플리케이션 (Gradle 기반)
 
 이 프로젝트는 **Spring Boot 백엔드**와 **Thymeleaf 프론트엔드**를 하나로 묶어 동작시키는 구조를 예제로 보여준다.  
 Spring Boot는 Gradle로 빌드하며, REST API 엔드포인트를 통해 Thymeleaf로 화면을 구성하는 방식이다.
@@ -36,9 +36,9 @@ gradle bootRun
 ---
 
 ## ⚙️ application.properties
-[application.properties](src/main/resources/application.properties)
+[application.yml](src/main/resources/application.yml)
 
-```yaml
+```yml
 spring:
   jpa:
     show-sql: true

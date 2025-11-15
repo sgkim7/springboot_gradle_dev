@@ -1,6 +1,7 @@
 package com.sboot.dev.dto;
 
 import com.sboot.dev.domain.Article;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,12 +10,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Getter
 public class AddArticleRequest {
+	private String title;
+	private String content;
 
-    private String title;
-    private String content;
-
-    public Article toEntity() {
-        // return new Article(title, content);
-        return Article.builder().title(title).content(content).build();
-    }
+	public Article toEntity() {
+		return Article.builder().title(title).content(content).build();
+	}
 }
