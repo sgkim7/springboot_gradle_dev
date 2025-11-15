@@ -22,8 +22,8 @@ Spring Boot는 Gradle로 빌드하며, REST API 엔드포인트를 통해 Thymel
 
 ## 📂 GitHub 소스 코드
 
-책/예제 기반 프로젝트 소스는 아래를 참고하면 된다:  
-👉 [https://github.com/wikibook/springboot-react](https://github.com/shinsunyoung/springboot-developer-2rd)
+프로젝트 소스는 아래를 참고하면 된다.  
+👉 [https://github.com/shinsunyoung/springboot-developer-2rd](https://github.com/shinsunyoung/springboot-developer-2rd)
 
 ---
 
