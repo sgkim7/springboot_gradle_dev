@@ -5,13 +5,13 @@ import com.sboot.dev.domain.Article;
 import lombok.Getter;
 
 @Getter
-public class AddArticleResponse {
+public class ArticleResponse {
 
     private String title;
     private String content;
 
-    public AddArticleResponse(Article article) {
-        this.title = article.
+    public ArticleResponse(Article article) {
+        this.title = article.getTitle();
         this.content = article.getContent();
     }
 }

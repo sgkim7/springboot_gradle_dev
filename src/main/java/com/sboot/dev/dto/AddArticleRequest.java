@@ -14,6 +14,7 @@ public class AddArticleRequest {
     private String content;
 
     public Article toEntity() {
-        return new Article(title, content);
+        // return new Article(title, content);
+        return Article.builder().title(title).content(content).build();
     }
 }
