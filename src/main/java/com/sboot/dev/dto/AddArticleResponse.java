@@ -1,9 +1,8 @@
 package com.sboot.dev.dto;
 
 import com.sboot.dev.domain.Article;
-import lombok.AllArgsConstructor;
+
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 
 @Getter
 public class AddArticleResponse {
@@ -12,7 +11,7 @@ public class AddArticleResponse {
     private String content;
 
     public AddArticleResponse(Article article) {
-        this.title = article.getTitle();
+        this.title = article.
         this.content = article.getContent();
     }
 }

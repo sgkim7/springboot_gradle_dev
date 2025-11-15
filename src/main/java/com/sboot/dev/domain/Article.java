@@ -22,9 +22,9 @@ public class Article {
     @Column(name="content", nullable = false)
     private String content;
 
-    @Builder
+    @Builder    
     public Article(String title, String content) {
         this.title = title;
         this.content = content;
-    }
+    }    
 }
